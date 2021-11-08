@@ -1,3 +1,32 @@
+@font-face {
+  font-family: 'Basel-Light';
+  src: url('fonts/Basel-Light.otf'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Basel-Book';
+  src: url('fonts/Basel-Book.otf'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Basel-Bold';
+  src: url('fonts/Basel-Bold.otf'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 body {
   font-family: 'Basel-Light', sans-serif;
   font-weight: 300;
@@ -305,6 +334,7 @@ footer li img {
 }
 
 .writ-item{
+  width: 100%;
   display: flex;
   font-size: 18px;
 }
@@ -316,4 +346,16 @@ width:20%;
 .writ-description{
   width:80%;
   font-size: 12px;
+}
+
+.writ-description a {
+  font-size: 25px;
+  padding: 0px;
+  color: black;
+}
+
+.writ-description a:hover {
+  text-decoration: none;
+  color: #148396;
+  transition: all 0.8s ease;
 }
