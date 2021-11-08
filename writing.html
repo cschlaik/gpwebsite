@@ -9,50 +9,83 @@
   <link rel="stylesheet" type="text/css" href="main.css">
 
   <script src="jquery-3.6.0.js"></script>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-<!-- <link rel="icon" href="images/favicon.ico"> -->
-<script>
-$(document).ready(function(){
-  $.get("https://newschool.academia.edu/GustavPeebles", function(data, status){
-    alert("Data: " + data + "\nStatus: " + status);
-});
-});
-</script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <!-- <link rel="icon" href="images/favicon.ico"> -->
+  <script>
+    $(document).ready(function() {
+      $.get("https://newschool.academia.edu/GustavPeebles", function(data, status) {
+        alert("Data: " + data + "\nStatus: " + status);
+      });
+    });
+  </script>
 
 </head>
 
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-    <div class="row">
-      <h1 class="col-sm-4"><a id="title" href="index.html">Gustav Peebles</a></h1>
-      <nav class="col-sm-8" id="menu-container">
-        <div class="menu-item col-sm-2">
-          <p><a class="menu-link" href="other.html">Other Work</a></p>
-        </div>
-        <div class="menu-item col-sm-2">
-          <p><a class="menu-link" href="writing.html">Writing</a></p>
-        </div>
-        <div class="menu-item col-sm-2">
-          <p><a class="menu-link" href="about.html">About</a></p>
-        </div>
+      <div class="row">
+        <h1 class="col-sm-4"><a id="title" href="index.html">Gustav Peebles</a></h1>
+        <nav class="col-sm-8" id="menu-container">
+          <div class="menu-item col-sm-2">
+            <p><a class="menu-link" href="other.html">Other Work</a></p>
+          </div>
+          <div class="menu-item col-sm-2">
+            <p><a class="menu-link" href="writing.html">Writing</a></p>
+          </div>
+          <div class="menu-item col-sm-2">
+            <p><a class="menu-link" href="about.html">About</a></p>
+          </div>
 
-      </nav>
+        </nav>
+      </div>
     </div>
-  </div>
   </nav>
 
   <section class="jumbotron bodycontent" id="writing-jumbo">
     <div class="container">
       <div class="row text-center">
         <h2>The Euro and Its Rivals</h2>
-        <h3 style="text-shadow: 5px 5px 5px #b8ffb0">Currency and the Construction of a Transnational City</h3>
-        <a class="btn btn-primary" id="buy-btn" href="https://www.amazon.com/Euro-Its-Rivals-Transnational-Anthropologies/dp/0253356385/ref=sr_1_1?dchild=1&keywords=the+euro+and+its+rivals&qid=1626201025&sr=8-1" target="_blank" style="color:black;">Buy</a>
+        <h3 style="text-shadow: 5px 5px 5px #9cb3ff">Currency and the Construction of a Transnational City</h3>
+        <a class="btn btn-primary" id="buy-btn" href="https://www.amazon.com/Euro-Its-Rivals-Transnational-Anthropologies/dp/0253356385/ref=sr_1_1?dchild=1&keywords=the+euro+and+its+rivals&qid=1626201025&sr=8-1" target="_blank"
+          style="color:black;">Buy</a>
       </div>
     </div>
   </section>
 
   <section class="container">
+
+    <div class="writ-item">
+      <div class="writ-img">
+        <img class="doc-img" src="images/doc.png">
+      </div>
+      <div class="writ-description">
+        <h3>Banking on Digital Money: Swedish Cashlessness and the Fraying Currency Tether</h3>
+        <h4>Cultural Anthropology, 2021</h4>
+        <p>
+          As cash has suddenly gone missing from Swedish life, a growing range of citizens and institutions have sounded the alarm that cash enabled a space of egalitarian access now under threat. But because commercial bank currency is gradually
+          displacing public central bank currency, cashlessness in Sweden is not only threatening its egalitarian ethos but also the Swedish Central Bank’s capacity to provide a guaranteed state payment mechanism. The consequences of Sweden’s battles
+          over cash-issuance may presage the future of our global banking system in a digital age, while also illuminating what is here called currency’s “tethering mechanism.” Because bank-issued currencies represent chains of credit/debt,
+          exchanging
+          and storing different currencies can tether and de-tether their users to different institutions, thereby offering anthropologists the possibility of mapping the waxing and waning of various dominant social institutions.
+        </p>
+      </div>
+    </div>
+
+    <div class="writ-item">
+      <div class="writ-img">
+        <img class="doc-img" src="images/doc.png">
+      </div>
+      <div class="writ-description">
+        <h3>As Above, So Below: Reflections on the Democratization of Demonetization</h3>
+        <h4>Who's Cashing In: Contemporary Perspectives on New Monies and Global Cashlessness, 2020</h4>
+        <p>
+          A chapter from a volume edited by Atreyee Sen, Johan Lindquist, and Marie Kolling. The book is dedicated to discussing and documenting worldwide instances of emergent cashlessness.
+        </p>
+      </div>
+    </div>
+
+
 
   </section>
 
