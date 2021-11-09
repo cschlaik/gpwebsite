@@ -70,7 +70,7 @@ h4{
 }
 
 .container{
-  width: 100%;
+  width: 90%;
 }
 #menu-container{
 float: right;
@@ -335,6 +335,8 @@ width:20%;
 }
 
 .writ-description{
+  padding-top: 20px;
+  padding-left: 20px;
   width:80%;
   font-size: 12px;
 }
@@ -347,6 +349,6 @@ width:20%;
 
 .writ-description a:hover {
   text-decoration: none;
-  color: #148396;
-  transition: all 0.8s ease;
+  color:#9cb3ff;
+  transition: all 0.35s ease;
 }
