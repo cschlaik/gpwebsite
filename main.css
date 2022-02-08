@@ -21,7 +21,7 @@ body {
 }
 
 p{
-  font-size: 1.4em;
+  font-size: 20px;
   text-align: justify;
   text-justify: inter-word;
   /* margin: 40px; */
@@ -38,6 +38,7 @@ a:hover{
   text-decoration: none;
   color: #148396;
   transition: all 0.8s ease;
+  text-decoration: underline;
 }
 
 h2 {
@@ -49,7 +50,16 @@ h3{
 }
 
 h4{
+  margin-top: 5px;
+  font-family: 'Basel-Book';
   font-size: 20px;
+}
+
+h5{
+  margin-top: 5px;
+  font-family: 'Basel-Light';
+  font-size: 20px;
+  font-style: italic;
 }
 
 .navbar-fixed-top{
@@ -77,14 +87,20 @@ float: right;
 }
 .menu-item{
   float: right;
-  width: 150px;
-  max-width: 150px;
+  width: 210px;
+  /* max-width: 150px; */
   text-align: center;
   overflow:hidden;
   display: inline;
   vertical-align: middle;
   padding-top: 30px;
+  padding-left: 0px;
+  padding-left: 0px;
 
+}
+
+.menu-item p{
+  text-align: center;
 }
 
 .menu-link{
@@ -172,9 +188,10 @@ header p {
 #img-box{
   padding-left: 40px;
   padding-bottom: 10px;
+  margin-top: 50px;
   float: right;
   position: relative;
-  width:45%;
+  width:35%;
   min-width: 20%;
 }
 
@@ -196,6 +213,7 @@ header p {
 
 #text-box{
   padding: 10px;
+  margin-top: 15px;
 }
 
 .overlay {
@@ -331,24 +349,24 @@ footer li img {
 }
 
 .writ-img{
-width:20%;
+width:12%;
 }
 
 .writ-description{
   padding-top: 20px;
   padding-left: 20px;
-  width:80%;
+  width:100%;
   font-size: 12px;
 }
 
 .writ-description a {
   font-size: 25px;
-  padding: 0px;
-  color: black;
+  /* padding: 0px;
+  color: black; */
 }
 
 .writ-description a:hover {
-  text-decoration: none;
+  /* text-decoration: none;
   color:#9cb3ff;
-  transition: all 0.35s ease;
+  transition: all 0.35s ease; */
 }
